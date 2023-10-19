@@ -2,7 +2,7 @@ document.getElementById('submit-button').addEventListener('click', function () {
     const email = document.getElementById('user-email').value ;
     const password = document.getElementById('user-password').value ;
     if(email == 'admin@gmail.com' && password == 123456){
-        window.location.href = 'Home.html'
+        window.location.href = 'index.html'
     } 
 })
 const togglePassword = document.querySelector('#togglePassword');
